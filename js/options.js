@@ -13,7 +13,7 @@ function save_options() {
     username: username,
     api: api
   }, function() {
-	$('#status').text("Changes saved. Please refresh!");
+	$('#status').text("Changes saved. Please refresh the page!");
   });
 }
 

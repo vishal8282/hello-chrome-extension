@@ -1,9 +1,11 @@
 $(document).ready(function(){	
     $('#wait').hide();
-	$("#sendsms").click(function(){
 
+	$("#sendsms").click(function(){
+        
         $('#status').text('');
         $('#wait').show();
+
 		var phone = $('#phone').val();
         var message = $('#message').val();
 
@@ -26,7 +28,6 @@ $(document).ready(function(){
         }, function(items) {
             send_sms(phone, message, items.api);
         });
-
 	});
 
     $("#options").click(function(){

@@ -1,0 +1,58 @@
+body{
+	/*background-image: url("../image/bg.jpg");*/
+	background: #e4e4e4;
+}
+
+#header{
+	/*margin-right: auto;*/
+	/*margin-left: 10px;*/
+}
+#header img{
+	float: left;
+	margin-right: 10px;
+}
+
+h1{
+	color: #d25a5a;
+}
+
+input{
+	padding: 5px;
+	margin: 2px;
+}
+
+textarea{
+	padding: 5px;
+	margin: 2px;
+	font-size: 12px;
+	height: 100px;
+	width: 183px;
+}
+
+#status{
+	color: red;
+	text-align: center;
+}
+
+#wait{
+	display: block;
+	margin: auto;
+	background: none;
+}
+
+button{
+	padding: 5px;
+	margin: 4px auto;
+	display: block;
+	cursor: pointer;
+}
+
+#options{
+	height: 20px;
+	width: 20px;
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	opacity: .7;
+	cursor: pointer;
+}

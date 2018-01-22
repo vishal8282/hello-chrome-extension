@@ -1,0 +1,28 @@
+p span{
+	color: green;
+}
+
+#status{
+	color: red;
+}
+
+#header img{
+	float: left;
+	margin-right: 10px;
+}
+
+h1{
+	color: #d25a5a;
+}
+
+h2{
+	opacity: .6;
+}
+
+input{
+	padding: 5px;
+}
+
+button{
+	padding: 5px;
+}

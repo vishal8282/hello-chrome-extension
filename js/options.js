@@ -13,8 +13,6 @@ function save_options() {
     username: username,
     api: api
   }, function() {
-	api = get_hidden(api);
-    $('#status').show();
 	$('#status').text("Changes saved. Please refresh!");
   });
 }
